@@ -1,0 +1,9 @@
+.git
+.idea
+**/*.iml
+**/target/
+.dockerignore
+*.md
+# Old monolith modules (replaced by asumc-auth-service and asumc-request-service)
+asumc-api/
+asumc-application/
