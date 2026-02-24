@@ -16,7 +16,7 @@ public class RequestService {
     }
 
     public String hello() {
-        return "Hello from core module";
+        return "Hello from core";
     }
 
     @Transactional

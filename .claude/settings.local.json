@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find /c/Projects/asumc-back -name \"*.xml\" -path \"*/asumc-storage/src/main/resources/*\" | xargs ls -la 2>/dev/null)"
+      "Bash(find /c/Projects/asumc-back -name \"*.xml\" -path \"*/asumc-storage/src/main/resources/*\" | xargs ls -la 2>/dev/null)",
+      "Bash(done)"
     ]
   }
 }

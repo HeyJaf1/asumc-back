@@ -17,10 +17,8 @@
     <modules>
         <module>asumc-common</module>
         <module>asumc-dto</module>
-        <module>asumc-storage</module>  <!-- Добавлено -->
+        <module>asumc-storage</module>
         <module>asumc-core</module>
-        <module>asumc-api</module>
-        <module>asumc-application</module>
     </modules>
 
     <properties>
