@@ -8,7 +8,6 @@
         <groupId>kz.asumc</groupId>
         <artifactId>asumc-back</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>asumc-core</artifactId>
@@ -17,17 +16,14 @@
         <dependency>
             <groupId>kz.asumc</groupId>
             <artifactId>asumc-common</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>kz.asumc</groupId>
             <artifactId>asumc-dto</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>kz.asumc</groupId>
             <artifactId>asumc-storage</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,19 +36,14 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
-            <version>0.12.6</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-impl</artifactId>
-            <version>0.12.6</version>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
-            <version>0.12.6</version>
-            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
